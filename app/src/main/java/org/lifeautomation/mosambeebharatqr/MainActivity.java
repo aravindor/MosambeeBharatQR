@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         MosCallback mosCallback;
         mosCallback = new MosCallback(this);
         mosCallback.initialise(username, password, this);
-        mosCallback.checkBharatQRStatus(Double.valueOf(amount),date,"desc",referenceId);
+        mosCallback.checkBharatQRStatus(Double.valueOf(amount),date,referenceId,referenceId);
     }
 
 
